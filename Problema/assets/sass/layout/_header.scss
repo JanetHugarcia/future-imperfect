@@ -1,0 +1,32 @@
+$gris:#e7e7e7;
+body{
+	font-size:14px;
+	background-color:#F4F4F4;
+	padding-top:50px;
+}
+.navbar.navbar-default{
+	background-color:white;
+	.navbar-nav>.active>a{
+		background-color:white;
+		color:rgba(0,0,0,.3);
+		border:none;
+	}
+}
+.navbar-brand{
+	h1{
+		margin:0;
+		text-transform: uppercase;
+		font-size: 1.2em;
+	}
+}
+.nav.navbar-nav{
+	text-transform:uppercase;
+}
+.nav.navbar-nav.navbar-right{
+	font-size:1.8em;
+	border:none;
+}
+.active{
+	border-left:1px solid $gris;
+	background-color:transparent;
+}
