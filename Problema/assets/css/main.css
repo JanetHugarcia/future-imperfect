@@ -5816,6 +5816,32 @@ body {
   padding-top: 50px;
   font-family: 'Raleway', sans-serif; }
 
+#intro .logo {
+  border-bottom: 0;
+  display: inline-block;
+  margin: 0 0 1em 0;
+  overflow: hidden;
+  position: relative; }
+  #intro .logo img {
+    display: block;
+    margin-left: -0.25;
+    width: 4.52em; }
+  #intro .logo:before {
+    background-image: url("../../images/hexagon2.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+
+#hexagono {
+  background: url("../../images/pic01.jpg"); }
+
 body {
   font-size: 14px;
   background-color: #F4F4F4;
